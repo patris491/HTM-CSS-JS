@@ -1,0 +1,28 @@
+ul{
+    list-style-type:none;
+    padding:15px 25px;
+    background-color: beige;
+    border-left: 5px rgb(3, 54, 1) solid;
+    font-size: 25px;
+    color: black;
+}
+ul li{
+    padding:3;
+    border-bottom: 1px rgb(83, 81, 81)solid;
+}
+ol{
+    list-style-type:upper-roman;
+}
+ol{
+    list-style-type:upper-roman;
+    border: 5px black solid;
+    background: rgb(255, 7, 7) ;
+}
+ol li{
+    padding:3;
+    border: 1px rgb(12, 12, 12)solid;
+    background: lightcoral ;
+}
+tr, td{
+      border: 1px rgb(12, 12, 12)solid;
+}

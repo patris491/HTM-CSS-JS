@@ -1,0 +1,35 @@
+article p{
+    background-color: black;
+    color: brown;
+}
+article div p{
+    background-color: rgb(248, 5, 5);
+    color: rgb(228, 221, 221);
+}
+
+article > p{
+    padding: 20px;
+      background-color: rgb(248, 5, 5);
+    color: rgb(228, 221, 221);
+}
+article ~ p{
+    padding: 40px;
+     background-color: rgba(9, 205, 240, 0.842);
+    color: rgb(4, 36, 1);
+}
+article + p{
+     background-color: rgba(240, 9, 201, 0.842);
+}
+
+input:in-range{
+    border: 2px solid rgb(2, 58, 26);
+}
+input:out-of-range{
+    border: 2px solid rgb(187, 10, 10);
+}
+main p:first-child {
+  background-color: aqua;
+}
+a:hover{
+     background-color: blueviolet;
+}

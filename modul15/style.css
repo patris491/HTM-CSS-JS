@@ -1,5 +1,5 @@
 div#div1{
-    position: sticky;
+    position: static;
     border: 3px solid black;
     width: 250px;
     height: 250px;
@@ -24,3 +24,50 @@ div#div3{
     right: 150px;
     top: 200px;
 }
+#parent{
+        position: relative;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px; 
+}
+#chid{
+  position: absolute;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    right: 100px;
+    top: 100px;
+}
+#horizontal ul{
+    list-style-type: none;
+    background-color: black;
+    margin-bottom: 100px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#horizontal ul li{
+ float: left;
+}
+#horizontal ul li a{
+  color: white;
+  padding: 50px;
+}
+#horizontal ul li a:hover{
+    background-color: rgb(29, 27, 27);
+} 
+#vertikal ul{
+    list-style-type: none;
+    background-color: black;
+    margin-bottom: 100px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#vertikal ul li a{
+  color: white;
+  padding: 50px;
+}
+#vertikal ul li a:hover{
+    background-color: rgb(29, 27, 27);
+} 

@@ -1,0 +1,72 @@
+.gallery{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 450px;
+}
+
+
+.gallery:hover{
+    border: 3px solid rgb(78, 133, 252);
+}
+
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+
+.sprite{
+    background: url(image\ \(2\).png);
+}
+
+
+.engineers{
+    width: 400px;
+    height: 400px ;
+    display: inline-block;
+    background-position: 0 0;
+}
+
+.hipster{
+    width: 400px;
+    height:  400px;
+    display: inline-block;
+    background-position: -500px 0px;
+}
+
+.shatows{
+    width:  400px;
+    height:  400px;
+    display: inline-block;
+    background-position: 0px -500px;
+}
+
+.speedster{
+    width:  400px;
+    height:  400px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+div[class~="ds"]{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}

@@ -1,0 +1,58 @@
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: blanchedalmond;
+    width: 150px; height: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.tooltip{
+    padding: 19px;
+    display: inline-block;
+    border: 2px dotted black;
+}
+
+.tooltip-list{
+    visibility: hidden;
+
+}
+.tooltip:hover .tooltip-list{
+    visibility: visible;
+    width: 100px;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 112px;
+    left: 8%;
+    margin-left: -60px;
+}
+
+#example1{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50px 10px;
+}
+#example2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 5px 2px 50px 10px;
+}
+#example3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50%;
+}
+#example4{
+    width: 150px;
+    height: 150px;
+    background-image: url(foto4.jpg);
+    border-radius: 50%;
+}

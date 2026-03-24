@@ -3,3 +3,29 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.shape_circle {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.shape_rectangle {
+    width: 150px;
+    height: 100px;
+    background-color: green;
+}
+
+.shape_triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+}
+
+.hide {
+    display: none;
+}

@@ -37,13 +37,14 @@ button1.onclick = function() {
     alert("Button 4 wheel!");
 };
 
-= document.getElementById("text1");
+var text1 = document.getElementById("text1");
 
 btn5.onclick = function() {
     text1.style.color = "red";
-}var btn5 = document.getElementById("btn5");
+}
+var btn5 = document.getElementById("btn5");
 
-var text1 
+var text1 = document.getElementById("text1");
 
 button2.onclick = function() {
     text3.style.cssText = "color: green; background-color: pink; padding: 20px; text-align: center; font-size: 25px; font-family: fantasy;";
